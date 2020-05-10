@@ -2,9 +2,9 @@ Write a function that takes in a non-empty array of distinct integers and an int
 
 If no three numbers sum up to the target sum, the function should return an empty array.
 
-Example :
-Input :
-array = [12, 3, 1, 2, -6, 5, -8, 6]
-targetSum = 0
-Output :
+Example : <br>
+Input : <br>
+array = [12, 3, 1, 2, -6, 5, -8, 6] <br>
+targetSum = 0<br>
+Output :<br>
 [[-8, 2, 6], [-8, 3, 5], [-6, 1, 5]]
