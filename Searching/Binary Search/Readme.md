@@ -2,7 +2,7 @@ Write a function that takes in a sorted array of integers as well as a target in
 
 Example:<br>
 Input:<br>
-array = [0, 1, 21, 33, 45, 45, 61, 71, 72, 73]
-target = 33
+array = [0, 1, 21, 33, 45, 45, 61, 71, 72, 73]<br>
+target = 33<br>
 Output:<br>
 3
