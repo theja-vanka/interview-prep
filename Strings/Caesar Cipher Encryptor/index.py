@@ -15,13 +15,13 @@ def getNewLetter(letter, key):
 
 
 def caesarCipherEncryptorAlternative(string, key):
-    minChars = ord('a')
-    maxChars = 26 + ord('a')
+    minChar = ord('a')
+    maxChar = ord('z') + 1
     newString = ''
-    key = key % 26
-    for char in string:
-        currChar = (ord(char) + key) % maxChars
-        if currChar < minChars:
-            currChar += minChars
-        newString = newString + chr(currChar)
+    key = key % (maxChar - minChar)
+    for letter in string:
+        newChar = (ord(letter) + key) % maxChar
+        if newChar < minChar:
+            newChar = newChar + minChar
+        newString += chr(newChar)
     return newString
