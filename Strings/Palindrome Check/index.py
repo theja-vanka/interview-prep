@@ -6,7 +6,7 @@ def checkAlpha(alphabet1, alphabet2, pstring):
     if alphabet1 == alphabet2:
         if len(pstring) == 1 or len(pstring) == 0:
             return True
-        return checkAlpha(pstring[0], pstring[-1],pstring[1:-1])
+        return checkAlpha(pstring[0], pstring[-1], pstring[1:-1])
     else:
         return False
 
