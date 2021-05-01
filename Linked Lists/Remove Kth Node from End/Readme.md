@@ -9,3 +9,9 @@ Note that your function doesn't need to return anything.
 You can assume that the input Linked List will always have at least two nodes and, more specifically, at least k nodes.
 
 Each **LinkedList** node has an integer **value** as well as a **next** node pointing to the next node in the list or to **None** / **null** if it's the tail of the list.
+
+Example: <br>
+Input: 
+head = 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 <br>
+k = 4 <br>
+Output: 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 7 -> 8 -> 9 <br>
