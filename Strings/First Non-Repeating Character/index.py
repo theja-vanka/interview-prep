@@ -1,13 +1,13 @@
 # O(N) time | O(1) space
 def firstNonRepeatingCharacter(string):
-    characterFrequencies = {}
+    characterFreq = {}
 
     for character in string:
-        characterFrequencies[character] = characterFrequencies.get(character, 0) + 1
+        characterFreq[character] = characterFreq.get(character, 0) + 1
 
     for idx in range(len(string)):
         character = string[idx]
-        if characterFrequencies[character] == 1:
+        if characterFreq[character] == 1:
             return idx
     return -1
 
