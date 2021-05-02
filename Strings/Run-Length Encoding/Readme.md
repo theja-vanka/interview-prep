@@ -6,6 +6,6 @@ To make things more complicated, however, the input string can contain all sorts
 
 Example:<br>
 Input:<br>
-string = "AAAAAAAAAAAAABBCCCCDD"
+string = "AAAAAAAAAAAAABBCCCCDD" <br>
 Output:<br>
 "9A4A2B4C2D"
