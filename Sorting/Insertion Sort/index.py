@@ -1,3 +1,6 @@
+# Best -> O(n) time | O(1) space
+# Avgerage -> O(n^2) time | O(1) space
+# Worst -> O(n^2) time | O(1) space
 def insertionSort(array):
     for i in range(1, len(array)):
         j = i
