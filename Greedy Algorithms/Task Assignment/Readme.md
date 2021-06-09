@@ -12,9 +12,8 @@ array = [<br>
   tasks = [1, 3, 5, 3, 1, 4]<br>
 ]<br>
 Output:<br>
-[3, 3]
-[
-  [0, 2], **// tasks[0] = 1, tasks[2] = 5 | 1 + 5 = 6**
-  [4, 5], **// tasks[4] = 1, tasks[5] = 4 | 1 + 4 = 5**
-  [1, 3], **// tasks[1] = 3, tasks[3] = 3 | 3 + 3 = 6**
+[ <br>
+  [0, 2], **// tasks[0] = 1, tasks[2] = 5 | 1 + 5 = 6**<br>
+  [4, 5], **// tasks[4] = 1, tasks[5] = 4 | 1 + 4 = 5**<br>
+  [1, 3], **// tasks[1] = 3, tasks[3] = 3 | 3 + 3 = 6**<br>
 ] **// The fastest time to complete all tasks is 6.**
