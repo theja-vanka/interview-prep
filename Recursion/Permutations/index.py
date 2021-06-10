@@ -26,7 +26,7 @@ def permutationsHelperAlt(i, array, permutations):
     else:
         for j in range(i, len(array)):
             swap(array, i, j)
-            permutationsHelper(i + 1, array, permutations)
+            permutationsHelperAlt(i + 1, array, permutations)
             swap(array, i, j)
 
 
